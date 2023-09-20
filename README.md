@@ -1,0 +1,2 @@
+* example script to crop pdf regions (like headers and footers) and then use ghostscript pdf-to-pdf to remove them from the file
+* because of how ghostscript works, parts of the pdf could still contain sensitive data embedded in pdf elements. images could also have watermarks. the next level of safety would be to use ghostscript to "flatten" each pdf page (print it to an image) and also potentially reduce the resolution
